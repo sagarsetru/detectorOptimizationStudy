@@ -1,0 +1,571 @@
+\documentclass[12pt]{article}
+\pdfoutput=1
+\usepackage{fancyhdr}
+\usepackage{authblk}
+\usepackage{feynmf}%%%
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{url,color}
+\usepackage{epstopdf}
+\usepackage{tabularx}
+\epstopdfsetup{suffix=}
+%\usepackage{multicolumn}
+\usepackage{caption}
+%\usepackage{subfig}
+\usepackage[colorlinks=true, citecolor=green, urlcolor=cyan]{hyperref} 
+\usepackage{subcaption}
+%\usepackage{siunitx}
+\usepackage{textgreek}
+\unitlength=1mm
+%\usepackage[]{lineno}
+%\linenumbers
+
+
+\textwidth=6.0in  \textheight=8.25in
+\renewcommand{\topfraction}{0.99}
+\renewcommand{\bottomfraction}{0.8}
+%%  Adjust these for your printer:
+\leftmargin=-0.3in   \topmargin=-0.20in
+\parskip=0.1truein
+
+\newcommand\pubdate{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  basic formatting macros:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\draftnote#1{{\bf [#1]}}
+\newcommand{\bspace}{\!\!\!\!}
+\def\met{\mbox{$E{\bspace}/_{T}$}}
+
+% Constructing composite symbols -------------------------------------
+
+\def\stacksymbols #1#2#3#4{\def\theguybelow{#2}
+    \def\vp{\lower#3pt}
+    \def\sp{\baselineskip0pt\lineskip#4pt}
+    \mathrel{\mathpalette\intermediary#1}}
+
+\def\intermediary#1#2{\vp\vbox{\sp
+     \everycr={}\tabskip0pt
+     \halign{$\mathsurround0pt#1\hfil##\hfil$\crcr#2\crcr
+              \theguybelow\crcr}}}
+
+%%  single-line equations:
+
+\def\beq{\begin{equation}}
+\def\eeq#1{\label{#1}\end{equation}}
+\def\eeqn{\end{equation}}
+\newcommand{\gsim}{\hbox{ \raise3pt\hbox to 0pt{$>$}\raise-3pt\hbox{$\sim$} }}
+\newcommand{\lsim}{\hbox{ \raise3pt\hbox to 0pt{$<$}\raise-3pt\hbox{$\sim$} }}
+\newcommand{\mathbold}[1]{\mbox{\boldmath $#1$}}
+
+%%  multiple-line equations  (use \CR as the carriage return):
+
+\newenvironment{Eqnarray}%
+   {\arraycolsep 0.14em\begin{eqnarray}}{\end{eqnarray}}
+\def\beqa{\begin{Eqnarray}}
+\def\eeqa#1{\label{#1}\end{Eqnarray}}
+\def\eeqan{\end{Eqnarray}}
+\def\CR{\nonumber \\ }
+
+%%  reference to an equation number:
+
+\def\leqn#1{(\ref{#1})}
+
+%%%   special symbols for general use (in math mode)
+
+
+\def\invfb{ \mbox{fb}^{-1} }
+\def\invpb{ \mbox{pb}^{-1} }
+\def\roots{ \sqrt{s} }
+\def\TeV{ \mbox{TeV}}
+\def\GeV{ \mbox{GeV}}
+\def\MeV{ \mbox{MeV}}
+
+%
+%%   special symbols from the SUSY group
+
+\def\eslt{E_T^{\rm miss}}
+\def\ta{\tilde a}
+\def\tG{\tilde G}
+\def\th{\tilde h}
+\def\tH{\tilde H}
+\def\tl{\tilde l}
+\def\tu{\tilde u}
+\def\tc{\tilde c}
+\def\ta{\tilde a}
+\def\ts{\tilde s}
+\def\tb{\tilde b}
+\def\tf{\tilde f}
+\def\td{\tilde d}
+\def\tQ{\tilde Q}
+\def\tL{\tilde L}
+\def\tH{\tilde H}
+\def\tst{\tilde t}
+\def\ttau{\tilde \tau}
+\def\tmu{\tilde \mu}
+\def\tg{\tilde g}
+\def\tnu{\tilde\nu}
+\def\tell{\tilde\ell}
+\def\tq{\tilde q}
+\def\tB{\widetilde B}
+%\def\tw{\widetilde W}
+%\def\tz{\widetilde Z}
+\def\alt{\stackrel{<}{\sim}}
+\def\agt{\stackrel{>}{\sim}}
+\def\be{\begin{equation}}  
+\def\ee{\end{equation}}  
+\def\bea{\begin{eqnarray}}  
+\def\eea{\end{eqnarray}}  
+\def\tw{\tilde\chi}
+\def\twp{\tilde\chi^+}
+\def\twm{\tilde\chi^-}
+\def\twpm{\tilde\chi^\pm}
+\def\tz{\tilde\chi^0}
+\newcommand{\ra}            {\ensuremath{ \rightarrow     }}
+\newcommand{\Ra}            {\ensuremath{ \Rightarrow     }}
+\newcommand{\longra}        {\ensuremath{ \longrightarrow }}
+\newcommand{\Longra}        {\ensuremath{ \Longrightarrow }}
+% ----------------------------------------------------------
+\newcommand{\la}            {\ensuremath{ \leftarrow      }}
+\newcommand{\La}            {\ensuremath{ \Leftarrow      }}
+\newcommand{\longla}        {\ensuremath{ \longleftarrow  }}
+\newcommand{\Longla}        {\ensuremath{ \Longleftarrow  }}
+% ----------------------------------------------------------
+\newcommand{\lra}           {\ensuremath{ \leftrightarrow }}
+\newcommand{\Lra}           {\ensuremath{ \Leftrightarrow }}
+\newcommand{\longlra}       {\ensuremath{ \longleftrightarrow }}
+\newcommand{\Longlra}       {\ensuremath{ \Longleftrightarrow }}
+\providecommand{\swsqeffl}    {\sin^2\!\theta_{\rm{eff}}^\ell}
+\providecommand{\sstw}{\mbox{$\sin^2\theta_W$}}
+\providecommand{\MW}      {m_{\mathrm{W}}}
+\providecommand{\MZ}      {m_{\mathrm{Z}}}
+\providecommand{\MH}      {m_{\mathrm{H}}}
+\providecommand{\Mh}      {m_{\mathrm{h}}}
+\providecommand{\MT}      {m_{\mathrm{t}}}
+\providecommand{\GZ}      {\Gamma_{\mathrm{Z}}}
+\providecommand{\GF}         {G_{\mathrm{F}}}
+\providecommand{\ppl}  {{\cal P}_{\rm{e}^+}}
+\providecommand{\pmi}  {{\cal P}_{\rm{e}^-}}
+\providecommand{\ppm}  {{\cal P}_{\rm{e}^\pm}}
+\providecommand{\peff}  {{\cal P}_{\rm{eff}}}
+\providecommand{\pol}  {{\cal P}}
+\providecommand{\Rb}   {R_{\rm{b}}}
+\providecommand{\ee}   {\rm{e^+e^-}}
+\providecommand{\bb}   {\rm{b\overline{b}}}
+\providecommand{\thw}   {\theta_{W}}
+\providecommand{\nb}{\,\mathrm{nb}}
+\providecommand{\pb}{\,\mathrm{pb}}
+\providecommand{\fb}{\,\mathrm{fb}}\providecommand{\pbi}{\,\mathrm{pb}^{-1}}
+\providecommand{\fbi}{\,\mathrm{fb}^{-1}}
+\providecommand{\Cdgz}{\ensuremath{\Delta g^\mathrm{Z}_1}}
+\providecommand{\Cdgg}{\ensuremath{\Delta g^\mathrm{\gamma}_1}}
+\providecommand{\Cdkz}{\ensuremath{\Delta \kappa_\mathrm{Z}}}
+\providecommand{\Cdkg}{\ensuremath{\Delta \kappa_{\gamma}}}
+\providecommand{\Ckg}{\ensuremath{\kappa_{\gamma}}}
+\providecommand{\Ckz}{\ensuremath{\kappa_{\mathrm{Z}}}}
+\providecommand{\Clg}{\ensuremath{\lambda_{\gamma}}}
+\providecommand{\Clz}{\ensuremath{\lambda_{\mathrm{Z}}}}
+\providecommand{\Cgv}[1]{\ensuremath{g^V_{#1}}}
+\providecommand{\Cgz}[1]{\ensuremath{g^Z_{#1}}}
+\providecommand{\Cgg}[1]{\ensuremath{g^{\gamma}_{#1}}}
+\providecommand{\Ckzt}{\ensuremath{\tilde{\kappa}_\mathrm{Z}}}
+\providecommand{\Clzt}{\ensuremath{\tilde{\lambda}_\mathrm{Z}}}
+\providecommand{\Ckgt}{\ensuremath{\tilde{\kappa}_{\gamma}}}
+\providecommand{\Clgt}{\ensuremath{\tilde{\lambda}_{\gamma}}}
+%
+\providecommand{\phmi}{\phantom{-}}
+%
+\newcommand{\sw}{s_w}
+\newcommand{\cw}{c_w}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\vA}{\mathbf{A}}
+\newcommand{\vB}{\mathbf{B}}
+\newcommand{\vC}{\mathbf{C}}
+\newcommand{\vD}{\mathbf{D}}
+\newcommand{\vV}{\mathbf{V}}
+\newcommand{\vT}{\mathbf{T}}
+\newcommand{\vW}{\mathbf{W}}
+\newcommand{\vw}{\mathbf{w}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\pd}{\partial}
+\newcommand{\mfrac}[2]{#1 / #2}
+\newcommand{\tr}[1]{\mathop{\rm tr}\left\{#1\right\}}
+\newcommand{\LL}{\mathcal{L}}
+\newcommand{\MSbar}{\mbox{$\overline{\rm MS}$}}
+\newcommand{\pp}{{\prime 2}}
+\newcommand{\z}{\phantom{0}}
+
+\newcommand{\polRL}{e^-_R e^+_L}
+\newcommand{\polLR}{e^-_L e^+_R}
+\newcommand{\ttbar}{ t \bar t}
+\newcommand{\bbbar}{ b \bar b}
+\newcommand{\Gammat}{\Gamma_t}
+\newcommand{\rmsn}{\mathrm{rms}_{90}}
+\newcommand{\Pt}{P_T}
+\newcommand{\eplus}{e^+}
+\newcommand{\eminus}{e^-}
+\newcommand{\epem}{\eplus\eminus}
+\def\invfb{ \mbox{fb}^{-1} } 
+\newcommand{\alr}{A_{LR}}
+\newcommand{\afb}{A_{FB}}
+\newcommand{\afbt}{A^t_{FB}}
+\newcommand{\afbl}{A^{\ell}_{FB}}
+\newcommand{\thel}{\theta_{hel}}
+\newcommand{\cthel}{\mathrm{cos} \theta_{hel}}
+\newcommand{\qq}{q\bar{q}}
+\newcommand{\Zzero}{Z^0}
+\newcommand{\tpq}{t}
+\newcommand{\Wboson}{W}
+\newcommand{\bottom}{b}
+\newcommand{\quark}{q}
+\newcommand{\qll}{Q_{LL}}
+\newcommand{\qlr}{Q_{LR}}
+\newcommand{\qrl}{Q_{RL}}
+\newcommand{\qrr}{Q_{RR}}
+\newcommand{\leftp}{\left(}
+\newcommand{\rightp}{\right)}
+\newcommand{\lhel}{\lambda_t}
+\newcommand{\fonevI}{{\cal F}^{I}_{1V}}
+\newcommand{\ftwovI}{{\cal F}^{I}_{2V}}
+\newcommand{\foneaI}{{\cal F}^{I'}_{1A}}
+\newcommand{\ftwoaI}{{\cal F}^{I}_{2A}}
+\newcommand{\pem} { {\cal P} }
+\newcommand{\pep} {{\cal P'} }
+%
+%\newcommand{\f1vr}{\cal{F}^{R}_{1V}}
+%\newcommand{\f2vr}{\cal{F}^{R}_{2V}}
+%\newcommand{\f1ar}{\cal{F}^{R}_{1A}}
+%\newcommand{\f2ar}{\cal{F}^{R}_{2A}}
+%\rhead{Version 1.3}
+
+%\rhead{
+%Top@ILC\\
+%White paper for Snowmass CSS 2013}
+%\renewcommand{\headrulewidth}{0in}
+
+%\newcommand{\chi2}{\chi^2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%  bibliographic entries 
+
+%    Please use the properly formed citations supplied by the
+%    INSPIRES   LaTeX(US) link.  Please use the INSPIRE tags
+%    for reference.  A typical bibliograph entry would then be:
+
+%  \bibitem{Tsukamoto:1993gt}
+%      T.~Tsukamoto, K.~Fujii, H.~Murayama, M.~Yamaguchi, Y.~Okada,
+%      %``Precision study of supersymmetry at future linear e+ e- colliders,''
+%       Phys.\ Rev.\  {\bf D51}, 3153-3171 (1995).
+
+%   You would refer to this paper as:    \cite{Tsukamoto:1993gt}
+%     duplicate references between chapters will be reconciled by 
+%        the  editor in the final version
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  put any macros needed for this section here
+
+\input mymacros.tex
+
+%  or list them here:
+
+\def\IFIC{\footnote{IFIC, c/ Catedr\`atico Jos\'e Beltr\`an, 2  46980 Paterna, SPAIN} }
+\def\KEK{\footnote{KEK, 1-1 Oho, Tsukuba-shi, Ibaraki-ken 305-0801, JAPAN}}
+\def\Carleton{\footnote{Ottawa-Carleton Inst. for Physics, 
+   Carleton University, Ottawa, Ontario K1S 5B6, CANADA}}
+\def\DESY{\footnote{DESY, Notkestrasse 85, D-22607 Hamburg,  GERMANY}}
+\def\SLAC{\footnote{SLAC, Stanford 
+University, 2575 Sand Hill Rd., Menlo Park, CA 94025, USA}}
+\def\UTA{\footnote{Physics Department, University of Texas,
+Arlington, TX 76019,  USA}}
+\def\Tsinghua{\footnote{Department of Engineering Physics, Tsinghua
+    University, Beijing,  CHINA}}
+\def\Toyama{\footnote{Department of Physics, University of Toyama, 
+        3190 Gofuku, Toyama 930-8555, JAPAN}}
+\def\Cornell{\footnote{Department of Physics, Cornell University, Ithaca NY 
+                 14853,  USA}}
+\def\Vienna{\footnote{Inst. f\"ur Theor. Physik, Universit\"at Wien, 
+      Boltzmanngasse 5, A-1090 Vienna, AUSTRIA}}
+\def\Oxford{\footnote{Department of Physics, University of Oxford,
+         Keble Road, Oxford OX1 3RH, UK}}
+\def\Oklahoma{\footnote{University of Oklahoma, Norman, OK 73019, USA}} 
+\def\Orsay{\footnote{LAL, Universit\'e Paris Sud, 
+           F-91898 Orsay CEDEX, FRANCE}}
+\def\ParisD{\footnote{Astroparticle and Cosmology Laboratory,
+Universit\'e Paris-Diderot, Paris 7/CNRS, FRANCE}}
+\def\Irvine{\footnote{Department of Physics, University of California,
+    Irvine, CA  USA}}
+\def\CERN{\footnote{TH Division, Case C01600, CERN, CH-1211 Geneva 23,
+    SWITZERLAND}}
+\def\okla{\footnote{University of Oklahoma, Norman, OK 73019, USA}}
+\def\uminn{\footnote{University of Minnesota, Minneapolis, MN 55455, USA}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{ \LARGE\bf Silicon Detector (SiD) Tracking Geometry Optimization Studies for the ILC}
+%\begin{footnotesize}
+%***********************************************************************
+% AUTHORS INFORMATION AREA
+%***********************************************************************
+%\author[1]{Author A\thanks{A.A@university.edu}}
+%\author[1]{Author B\thanks{B.B@university.edu}}
+%\author[1]{Author C\thanks{C.C@university.edu}}
+%\author[2]{Author D\thanks{D.D@university.edu}}
+%\author[2]{Author E\thanks{E.E@university.edu}}
+\author[1]{S.~U.~Setru}
+\author[1]{M.~Demarteau\thanks{Corresponding author: demarteau@anl.gov}}
+\affil[1]{\footnotesize Argonne National Laboratory, 9700 South Cass Avenue, IL, USA}
+%\affil[2]{\footnotesize Argonne National Laboratory, 9700 South Cass Avenue, IL, USA}
+\renewcommand\Authands{ and }
+
+%\end{footnotesize}
+
+\begin{document}
+%\title{ \LARGE\bf Asymmetries in $t\bar{t}$ production at $\roots=500\,\GeV$ at the International Linear Collider} %% 
+
+%\author{\centering I.~Garcia\IFIC, R.~P\"oschl\Orsay, E.~Ros\IFIC, F.~Richard\Orsay\IFIC,J.~Rou\"en\'e\Orsay}
+\date{}
+%%***********************************************************************
+% END OF AUTHORS INFORMATION AREA
+%***********************************************************************
+
+\maketitle
+\thispagestyle{fancy}
+
+
+\begin{abstract}
+We studied modifications to the tracking system of 
+the baseline Silicon Detector (SiD) geometry for the proposed International Linear Collider (ILC)
+as presented in the SiD Detailed Baseline Design (DBD) \cite{Behnke:2013lya}.
+%We present the tracking performance of the modified Sidloi3 geometry.
+The vertex barrel has five roughly evenly spaced tracking layers.
+The spatial arrangement of the vertex barrels was modified
+to three sets of
+ two closely-spaced tracking layers.
+The tracking performance was studied using Monte Carlo simulations 
+of single muons and two physics processes, 
+$\ee \rightarrow \ttbar$ at $ \sqrt{s} = $ 500 GeV and 
+$\ee \rightarrow \ttbar \bbbar$ (hadronic decays only) at $ \sqrt{s} = $ 1 TeV.
+The modified detector has greater $z$-axis 
+impact parameter resolution for high polar angles ($\theta > 60^{\circ}$)
+for single muons at 10 and 100 GeV.
+The modified detector has lower efficiency for low energy single muons in the forward region.
+In the central region, the modified detector has better $z$-axis impact parameter resolution
+but worse transverse impact parameter
+resolution for high energy muons.
+For the two physics processes, the modified detector has
+higher efficiency for low energy particles, lower efficiency
+for high energy particles, and lower efficiency as a function of the number
+hits produced by the reconstructed Monte Carlo charged particles.
+The modified detector also has higher track fake rates
+for both physics processes for a wide range
+of polar angle and transverse momentum.
+In all other aspects of detector performance,
+both detectors performed comparably.
+Neither detector geometry performed unequivocally better than the other
+for the parameter space studied.
+%Results indicate that the modified detector had an improved 
+%Z-axis impact parameter resolution for single muons at high polar angles.
+%The modified detector also demonstrated higher track fake rates for both 
+%physics processes for a wide range of polar angle and transverse momentum.
+\end{abstract}
+
+
+%\begin{titlepage}
+
+%\vfill
+%\begin{center} 
+%{\Large   Physics at the International Linear Collider} 
+
+%\vfill
+
+%Physics Chapter of the ILC Detailed Baseline Design Report 
+
+%\vfill
+
+%Preliminary Version:   Draft of \today 
+
+%\medskip
+
+%please address questions or comments to:   poeschl@lal.in2p3.fr
+
+%\vfill
+
+%Editorial Team:
+%\vfill
+%I.~Garcia\Oklahoma,
+%F.~Richard\SLAC,   
+%E.~Ros\KEK,
+%M.~Vos\Tsinghua,
+%J.~Trenado\Vienna,
+%T.~Frisson\Toyama,
+%R.~P\"oschl\DESY,
+%J.~Rou\"en\'e\ Logan\Carleton,
+%Andrei Nomerotski\Oxford,
+%J\"urgen Reuter\DESY,
+%Maxim Perelstein\Cornell,
+% Michael E. Peskin\SLAC,
+%Roman Poeschl\Orsay,
+%Aurore Savoy-Navarro\ParisD,
+%Geraldine Servant\CERN,
+%Tim M. P. Tait\Irvine,
+%Jaehoon Yu\UTA
+
+%\vfill
+%\vfill
+%%\end{center}
+
+%\end{titlepage}
+\def\thefootnote{\fnsymbol{footnote}}
+\setcounter{footnote}{0}
+%
+%\tableofcontents
+%\newpage
+
+
+\input intro.tex
+\input methods.tex
+\input results.tex
+\input discussionconclusion.tex
+%\input crosscoup.tex
+%\input top-hadron.tex
+
+%%%% THREE ORIGINALS
+%\input top-mass.tex
+%\input ilc-coupl.tex
+%\input top-remarks.tex
+
+
+
+%\input selection.tex
+%\input crossalr.tex
+%\input afb.tex
+%\input hel-asym.tex
+%\input sys.tex
+%\input interpret.tex
+%\input sum.tex
+%\input annex.tex
+\bibliographystyle{utphys_mod}
+\begin{footnotesize}
+%\bibliography{sm2013-top}
+%\bibliography{/Users/sagarsetru/Documents/mybibfile}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Behnke:2013lya}
+T.~Behnke, J.~E. Brau, P.~N. Burrows, J.~Fuster, M.~Peskin, {\em et al.},
+  ``{The International Linear Collider Technical Design Report - Volume 4:
+  Detectors}''
+\href{http://arxiv.org/abs/1306.6329}{{\tt arXiv:1306.6329 [physics.ins-det]}}.
+%%CITATION = ARXIV:1306.6329;%%.
+
+\bibitem{Baer:2013cma}
+H.~Baer, T.~Barklow, K.~Fujii, Y.~Gao, A.~Hoang, {\em et al.}, ``{The
+  International Linear Collider Technical Design Report - Volume 2: Physics}''
+\href{http://arxiv.org/abs/1306.6352}{{\tt arXiv:1306.6352 [hep-ph]}}.
+%%CITATION = ARXIV:1306.6352;%%.
+
+\bibitem{2011arXiv1104.4547W}
+T.~G. {White}, ``{Performance studies of a pixel tracker in the Silicon
+  Detector (SiD) concept for a future linear collider}''{\em ArXiv e-prints}
+  (Apr., 2011)  , \href{http://arxiv.org/abs/1104.4547}{{\tt arXiv:1104.4547
+  [physics.ins-det]}}.
+
+\bibitem{graf2007simulator}
+N.~Graf and J.~McCormick, ``Simulator for the linear collider (slic): a tool
+  for ilc detector simulations'' in {\em AIP Conf. Proc. 867: 503-512, 2006},
+  no.~SLAC-PUB-12350, Stanford Linear Accelerator Center (SLAC).
+\newblock 2007.
+
+\bibitem{agostinelli2003geant4}
+S.~Agostinelli, J.~Allison, K.~E. Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, {\em et al.}, ``Geant4—a
+  simulation toolkit'' {\em Nuclear instruments and methods in physics research
+  section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  {\bf 506} (2003) no.~3, 250--303.
+
+\bibitem{allison2006geant4}
+J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~A. Dubois, M.~Asai,
+  G.~Barrand, R.~Capra, S.~Chauvie, R.~Chytracek, {\em et al.}, ``Geant4
+  developments and applications'' {\em Nuclear Science, IEEE Transactions on}
+  {\bf 53} (2006) no.~1, 270--278.
+
+\bibitem{lcsimurl}
+``Linear collider simulation'' 2014.
+\newblock \url{http://www.lcsim.org/sites/lcsim/index.html}.
+
+\bibitem{graf2011org}
+N.~A. Graf, ``org.lcsim: Event reconstruction in java'' in {\em Journal of
+  Physics: Conference Series}, vol.~331, p.~032012, IOP Publishing.
+\newblock 2011.
+
+\bibitem{1742-6596-513-3-032077}
+C.~Grefe, S.~Poss, A.~Sailer, A.~Tsaregorodtsev, the Clic~detector, and physics
+  study, ``Ilcdirac, a dirac extension for the linear collider community'' {\em
+  Journal of Physics: Conference Series} {\bf 513} (2014) no.~3, 032077.
+  \url{http://stacks.iop.org/1742-6596/513/i=3/a=032077}.
+
+\bibitem{tsaregorodtsev2008dirac}
+A.~Tsaregorodtsev, M.~Bargiotti, N.~Brook, A.~C. Ramo, G.~Castellani,
+  P.~Charpentier, C.~Cioffi, J.~Closier, R.~G. Diaz, G.~Kuznetsov, {\em et
+  al.}, ``Dirac: a community grid solution'' in {\em Journal of Physics:
+  Conference Series}, vol.~119, p.~062048, IOP Publishing.
+\newblock 2008.
+
+\bibitem{2003physics...6114G}
+F.~{Gaede}, T.~{Behnke}, N.~{Graf}, and T.~{Johnson}, ``{LCIO: A persistency
+  framework for linear collider simulation studies}''{\em ArXiv Physics
+  e-prints} (June, 2003)  , \href{http://arxiv.org/abs/physics/0306114}{{\tt
+  physics/0306114}}.
+
+\bibitem{stdhep:url}
+``Stdhep'' 2013.
+\newblock \url{http://cepa.fnal.gov/psm/stdhep/}.
+
+\bibitem{kilian2011whizard}
+W.~Kilian, T.~Ohl, and J.~Reuter, ``Whizard: simulating multi-particle
+  processes at lhc and ilc'' {\em The European Physical Journal C} {\bf 71}
+  (2011) no.~9, 1--29.
+
+\bibitem{sjostrand2006pythia}
+T.~Sj{\"o}strand, S.~Mrenna, and P.~Skands, ``Pythia 6.4 physics and manual''
+  {\em Journal of High Energy Physics} {\bf 2006} (2006) no.~05, 026.
+
+\bibitem{Grefe:2014pba}
+C.~Grefe, ``{Detector Optimization Studies and Light Higgs Decay into Muons at
+  CLIC}''
+\href{http://arxiv.org/abs/1402.2780}{{\tt arXiv:1402.2780 [physics.ins-det]}}.
+%%CITATION = ARXIV:1402.2780;%%.
+
+\bibitem{geant4physlist:url}
+``Geant4 physics reference manual'' 2011.
+\newblock \url{http://cepa.fnal.gov/psm/stdhep/}.
+
+\bibitem{2008arXiv0808.0130P}
+S.~{Piperov}, ``{Geant4 validation with CMS calorimeters test-beam data}''{\em
+  ArXiv e-prints} (Aug., 2008)  , \href{http://arxiv.org/abs/0808.0130}{{\tt
+  arXiv:0808.0130 [physics.ins-det]}}.
+
+\bibitem{krammer1997signal}
+M.~Krammer and H.~Pernegger, ``Signal collection and position reconstruction of
+  silicon strip detectors with 200 $\mu$m readout pitch'' {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bf 397} (1997) no.~2,
+  232--242.
+
+\bibitem{kramer2006track}
+T.~Kr{\"a}mer, ``Track parameters in lcio'' tech. rep., LC-DET-2006-004, 2006.
+
+\bibitem{alcaraz1995helicoidal}
+J.~Alcaraz, ``Helicoidal tracks'' tech. rep., L3 Note 1666, February 1995,
+  1995.
+
+\end{thebibliography}\endgroup
+\end{footnotesize}
+
+\end{document}
+

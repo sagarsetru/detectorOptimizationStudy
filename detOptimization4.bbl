@@ -1,0 +1,111 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Behnke:2013lya}
+T.~Behnke, J.~E. Brau, P.~N. Burrows, J.~Fuster, M.~Peskin, {\em et al.},
+  ``{The International Linear Collider Technical Design Report - Volume 4:
+  Detectors}''
+\href{http://arxiv.org/abs/1306.6329}{{\tt arXiv:1306.6329 [physics.ins-det]}}.
+%%CITATION = ARXIV:1306.6329;%%.
+
+\bibitem{Baer:2013cma}
+H.~Baer, T.~Barklow, K.~Fujii, Y.~Gao, A.~Hoang, {\em et al.}, ``{The
+  International Linear Collider Technical Design Report - Volume 2: Physics}''
+\href{http://arxiv.org/abs/1306.6352}{{\tt arXiv:1306.6352 [hep-ph]}}.
+%%CITATION = ARXIV:1306.6352;%%.
+
+\bibitem{2011arXiv1104.4547W}
+T.~G. {White}, ``{Performance studies of a pixel tracker in the Silicon
+  Detector (SiD) concept for a future linear collider}''{\em ArXiv e-prints}
+  (Apr., 2011)  , \href{http://arxiv.org/abs/1104.4547}{{\tt arXiv:1104.4547
+  [physics.ins-det]}}.
+
+\bibitem{graf2007simulator}
+N.~Graf and J.~McCormick, ``Simulator for the linear collider (slic): a tool
+  for ilc detector simulations'' in {\em AIP Conf. Proc. 867: 503-512, 2006},
+  no.~SLAC-PUB-12350, Stanford Linear Accelerator Center (SLAC).
+\newblock 2007.
+
+\bibitem{agostinelli2003geant4}
+S.~Agostinelli, J.~Allison, K.~E. Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, {\em et al.}, ``Geant4—a
+  simulation toolkit'' {\em Nuclear instruments and methods in physics research
+  section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  {\bf 506} (2003) no.~3, 250--303.
+
+\bibitem{allison2006geant4}
+J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~A. Dubois, M.~Asai,
+  G.~Barrand, R.~Capra, S.~Chauvie, R.~Chytracek, {\em et al.}, ``Geant4
+  developments and applications'' {\em Nuclear Science, IEEE Transactions on}
+  {\bf 53} (2006) no.~1, 270--278.
+
+\bibitem{lcsimurl}
+``Linear collider simulation'' 2014.
+\newblock \url{http://www.lcsim.org/sites/lcsim/index.html}.
+
+\bibitem{graf2011org}
+N.~A. Graf, ``org.lcsim: Event reconstruction in java'' in {\em Journal of
+  Physics: Conference Series}, vol.~331, p.~032012, IOP Publishing.
+\newblock 2011.
+
+\bibitem{1742-6596-513-3-032077}
+C.~Grefe, S.~Poss, A.~Sailer, A.~Tsaregorodtsev, the Clic~detector, and physics
+  study, ``Ilcdirac, a dirac extension for the linear collider community'' {\em
+  Journal of Physics: Conference Series} {\bf 513} (2014) no.~3, 032077.
+  \url{http://stacks.iop.org/1742-6596/513/i=3/a=032077}.
+
+\bibitem{tsaregorodtsev2008dirac}
+A.~Tsaregorodtsev, M.~Bargiotti, N.~Brook, A.~C. Ramo, G.~Castellani,
+  P.~Charpentier, C.~Cioffi, J.~Closier, R.~G. Diaz, G.~Kuznetsov, {\em et
+  al.}, ``Dirac: a community grid solution'' in {\em Journal of Physics:
+  Conference Series}, vol.~119, p.~062048, IOP Publishing.
+\newblock 2008.
+
+\bibitem{2003physics...6114G}
+F.~{Gaede}, T.~{Behnke}, N.~{Graf}, and T.~{Johnson}, ``{LCIO: A persistency
+  framework for linear collider simulation studies}''{\em ArXiv Physics
+  e-prints} (June, 2003)  , \href{http://arxiv.org/abs/physics/0306114}{{\tt
+  physics/0306114}}.
+
+\bibitem{stdhep:url}
+``Stdhep'' 2013.
+\newblock \url{http://cepa.fnal.gov/psm/stdhep/}.
+
+\bibitem{kilian2011whizard}
+W.~Kilian, T.~Ohl, and J.~Reuter, ``Whizard: simulating multi-particle
+  processes at lhc and ilc'' {\em The European Physical Journal C} {\bf 71}
+  (2011) no.~9, 1--29.
+
+\bibitem{sjostrand2006pythia}
+T.~Sj{\"o}strand, S.~Mrenna, and P.~Skands, ``Pythia 6.4 physics and manual''
+  {\em Journal of High Energy Physics} {\bf 2006} (2006) no.~05, 026.
+
+\bibitem{Grefe:2014pba}
+C.~Grefe, ``{Detector Optimization Studies and Light Higgs Decay into Muons at
+  CLIC}''
+\href{http://arxiv.org/abs/1402.2780}{{\tt arXiv:1402.2780 [physics.ins-det]}}.
+%%CITATION = ARXIV:1402.2780;%%.
+
+\bibitem{geant4physlist:url}
+``Geant4 physics reference manual'' 2011.
+\newblock \url{http://cepa.fnal.gov/psm/stdhep/}.
+
+\bibitem{2008arXiv0808.0130P}
+S.~{Piperov}, ``{Geant4 validation with CMS calorimeters test-beam data}''{\em
+  ArXiv e-prints} (Aug., 2008)  , \href{http://arxiv.org/abs/0808.0130}{{\tt
+  arXiv:0808.0130 [physics.ins-det]}}.
+
+\bibitem{krammer1997signal}
+M.~Krammer and H.~Pernegger, ``Signal collection and position reconstruction of
+  silicon strip detectors with 200 $\mu$m readout pitch'' {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bf 397} (1997) no.~2,
+  232--242.
+
+\bibitem{kramer2006track}
+T.~Kr{\"a}mer, ``Track parameters in lcio'' tech. rep., LC-DET-2006-004, 2006.
+
+\bibitem{alcaraz1995helicoidal}
+J.~Alcaraz, ``Helicoidal tracks'' tech. rep., L3 Note 1666, February 1995,
+  1995.
+
+\end{thebibliography}\endgroup

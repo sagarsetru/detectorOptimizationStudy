@@ -1,0 +1,1461 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.5)  25 JUN 2014 00:27
+entering extended mode
+**C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/detOptimization3.
+tex
+
+(C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/detOptimization3.t
+ex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\preprint\authblk.sty"
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip52
+\@affilsep=\skip53
+\c@Maxaffil=\count87
+\c@authors=\count88
+\c@affil=\count89
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\feynmf\feynmf.sty"
+Package: feynmf 1996/12/02 v1.08 LaTeX/Metafont Feynman Diagram Package (ohl)
+\@outfmf=\write3
+\fmfbuf@=\toks14
+\c@fmfgraph=\count90
+\grep@infile=\read1
+\grep@outfile=\write4
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks16
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks21
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count104
+\TX@ftn=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
+)
+\c@ContinuedFloat=\count105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\@linkdim=\dimen128
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count108
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count109
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count110
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring ON on input line 5791.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip59
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count116
+\c@subtable=\count117
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\textgreek\textgreek.sty"
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\lgrenc.def"
+File: lgrenc.def 2008/06/17 v2.3 Greek Encoding
+)
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
+)
+(C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\mymacros.tex
+\@tempcntc=\count118
+)
+(C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\detOptimization3.a
+ux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 328.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 328.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\lgrcmr.fd"
+File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
+)
+LaTeX Font Info:    ... okay on input line 328.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen131
+\scratchbox=\box28
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen132
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks24
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring ON on input line 328.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count125
+)
+LaTeX Info: Redefining \ref on input line 328.
+LaTeX Info: Redefining \pageref on input line 328.
+LaTeX Info: Redefining \nameref on input line 328.
+
+(C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\detOptimization3.o
+ut)
+(C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\detOptimization3.o
+ut
+! I can't write on file `detOptimization3.pdf'.
+Please type another file name for output: 
+)
+\@outlinefile=\write5
+LaTeX Font Info:    Try loading font information for U+msa on input line 338.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 338.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 1 undefined on input line 344.
+
+
+(C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\intro.tex
+
+LaTeX Warning: Citation `Baer:2013cma' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 1 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 1 undefined on input line 32.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation `2011arXiv1104.4547W' on page 2 undefined on input line
+ 42.
+
+
+LaTeX Warning: Reference `fig:trackersketch' on page 2 undefined on input line 
+50.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 50.
+
+<totalTracker.png, id=90, 289.08pt x 207.77625pt>
+File: totalTracker.png Graphic file (type png)
+ <use totalTracker.png>
+Package pdftex.def Info: totalTracker.png used on input line 67.
+(pdftex.def)             Requested size: 289.07928pt x 207.77573pt.
+
+
+LaTeX Warning: Reference `fig:vertexsketch' on page 2 undefined on input line 7
+0.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Reference `fig:vertexsketch' on page 2 undefined on input line 7
+0.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 79.
+
+
+LaTeX Warning: Reference `fig:trackersketch' on page 2 undefined on input line 
+80.
+
+
+LaTeX Warning: Reference `fig:coveragea' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Reference `sec:recon' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 88.
+
+<vertexDetectorSketch1.png, id=92, 289.08pt x 206.2104pt>
+File: vertexDetectorSketch1.png Graphic file (type png)
+
+<use vertexDetectorSketch1.png>
+Package pdftex.def Info: vertexDetectorSketch1.png used on input line 93.
+(pdftex.def)             Requested size: 289.07928pt x 206.20988pt.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Reference `fig:vertexsketch' on page 2 undefined on input line 9
+8.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 2 undefined on input line 108.
+
+
+
+LaTeX Warning: Reference `fig:coveragea' on page 2 undefined on input line 110.
+
+
+
+LaTeX Warning: Reference `fig:coveragea' on page 2 undefined on input line 111.
+
+
+
+LaTeX Warning: Reference `fig:trackersketch' on page 2 undefined on input line 
+112.
+
+[2]
+
+LaTeX Warning: Reference `fig:sidloi3barrel' on page 3 undefined on input line 
+117.
+
+
+LaTeX Warning: Reference `fig:modifiedbarrel' on page 3 undefined on input line
+ 119.
+
+
+LaTeX Warning: Reference `tab:vertexGeom' on page 3 undefined on input line 120
+.
+
+
+LaTeX Warning: Reference `fig:barrels' on page 3 undefined on input line 131.
+
+
+LaTeX Warning: Reference `fig:coverage' on page 3 undefined on input line 133.
+
+<sidloi3_barrel_withVolumes.pdf, id=97, 216.32169pt x 149.53069pt>
+File: sidloi3_barrel_withVolumes.pdf Graphic file (type pdf)
+
+<use sidloi3_barrel_withVolumes.pdf>
+Package pdftex.def Info: sidloi3_barrel_withVolumes.pdf used on input line 140.
+
+(pdftex.def)             Requested size: 216.32115pt x 149.5303pt.
+
+<DoubletVertexFinal_withVolumesAndDetail.pdf, id=98, 218.58621pt x 150.06084pt>
+File: DoubletVertexFinal_withVolumesAndDetail.pdf Graphic file (type pdf)
+<use DoubletVertexFinal_withVolumesAndDetail.pdf>
+Package pdftex.def Info: DoubletVertexFinal_withVolumesAndDetail.pdf used on in
+put line 146.
+(pdftex.def)             Requested size: 218.58566pt x 150.06047pt.
+
+Overfull \hbox (1.77567pt too wide) in paragraph at lines 146--147
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `sec:sim' on page 3 undefined on input line 154.
+
+
+LaTeX Warning: Reference `sec:sim' on page 3 undefined on input line 154.
+
+
+LaTeX Warning: Reference `fig:sidloi3barrel' on page 3 undefined on input line 
+176.
+
+
+LaTeX Warning: Reference `fig:modifiedbarrel' on page 3 undefined on input line
+ 176.
+
+
+LaTeX Warning: Reference `fig:sidloi3barrel' on page 3 undefined on input line 
+176.
+
+
+LaTeX Warning: Reference `fig:modifiedbarrel' on page 3 undefined on input line
+ 176.
+
+[3 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/totalTracker.pn
+g>] <trackerCoverage_sidloi3.png, id=105, 569.12625pt x 482.0409pt>
+File: trackerCoverage_sidloi3.png Graphic file (type png)
+
+<use trackerCoverage_sidloi3.png>
+Package pdftex.def Info: trackerCoverage_sidloi3.png used on input line 185.
+(pdftex.def)             Requested size: 216.81pt x 183.63347pt.
+
+<trackerCoverage_det_vtxbar_3doublet.png, id=106, 569.12625pt x 482.0409pt>
+File: trackerCoverage_det_vtxbar_3doublet.png Graphic file (type png)
+
+<use trackerCoverage_det_vtxbar_3doublet.png>
+Package pdftex.def Info: trackerCoverage_det_vtxbar_3doublet.png used on input 
+line 189.
+(pdftex.def)             Requested size: 216.81pt x 183.63347pt.
+)
+(C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\methods.tex
+
+LaTeX Warning: Citation `graf2007simulator' on page 4 undefined on input line 3
+.
+
+
+LaTeX Warning: Citation `agostinelli2003geant4' on page 4 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `allison2006geant4' on page 4 undefined on input line 4
+.
+
+
+LaTeX Warning: Reference `sec:sim' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lcsimurl' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `graf2011org' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Reference `sec:recon' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:analysis' on page 4 undefined on input line 11.
+
+
+LaTeX Warning: Citation `1742-6596-513-3-032077' on page 4 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Citation `tsaregorodtsev2008dirac' on page 4 undefined on input 
+line 16.
+
+
+LaTeX Warning: Reference `fig:software' on page 4 undefined on input line 17.
+
+<simReconAnalysisPipeline.pdf, id=107, 433.62pt x 109.17831pt>
+File: simReconAnalysisPipeline.pdf Graphic file (type pdf)
+
+<use simReconAnalysisPipeline.pdf>
+Package pdftex.def Info: simReconAnalysisPipeline.pdf used on input line 25.
+(pdftex.def)             Requested size: 433.61894pt x 109.17804pt.
+
+
+LaTeX Warning: Reference `sec:sim' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Reference `sec:recon' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Reference `sec:analysis' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Reference `sec:sim' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Reference `sec:recon' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Reference `sec:analysis' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Citation `2003physics...6114G' on page 4 undefined on input line
+ 42.
+
+[4 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/vertexDetectorS
+ketch1.png>] [5 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/si
+dloi3_barrel_withVolumes.pdf> <C:/Users/Sagar/Documents/Documents/argonne/detOp
+timization2/DoubletVertexFinal_withVolumesAndDetail.pdf>]
+
+LaTeX Warning: Citation `stdhep:url' on page 6 undefined on input line 48.
+
+
+LaTeX Warning: Citation `kilian2011whizard' on page 6 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `sjostrand2006pythia' on page 6 undefined on input line
+ 54.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 6 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Behnke:2013lya' on page 6 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:barrels' on page 6 undefined on input line 62.
+
+
+LaTeX Warning: Citation `geant4physlist:url' on page 6 undefined on input line 
+66.
+
+
+LaTeX Warning: Citation `2008arXiv0808.0130P' on page 6 undefined on input line
+ 67.
+
+
+LaTeX Warning: Reference `fig:sidloi3barrel' on page 6 undefined on input line 
+68.
+
+[6 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/trackerCoverage
+_sidloi3.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/trac
+kerCoverage_det_vtxbar_3doublet.png>]
+
+LaTeX Warning: Citation `lcsimurl' on page 7 undefined on input line 77.
+
+
+LaTeX Warning: Citation `graf2011org' on page 7 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 7 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 7 undefined on input line 87.
+
+
+LaTeX Warning: Reference `sec:trackingstrategies' on page 7 undefined on input 
+line 88.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 7 undefined on input line 97.
+
+
+LaTeX Warning: Citation `krammer1997signal' on page 7 undefined on input line 1
+05.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 7 undefined on input line 110.
+
+
+LaTeX Warning: Citation `kramer2006track' on page 7 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `alcaraz1995helicoidal' on page 7 undefined on input li
+ne 114.
+
+
+LaTeX Warning: Reference `fig:helix' on page 7 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 7 undefined on input line 118.
+
+[7 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/simReconAnalysi
+sPipeline.pdf>]
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 8 undefined on input line 133.
+
+<helixDrawing3.pdf, id=194, 281.29218pt x 263.76907pt>
+File: helixDrawing3.pdf Graphic file (type pdf)
+ <use helixDrawing3.pdf>
+Package pdftex.def Info: helixDrawing3.pdf used on input line 137.
+(pdftex.def)             Requested size: 281.29147pt x 263.76842pt.
+
+
+LaTeX Warning: Reference `eq:helixparam' on page 8 undefined on input line 146.
+
+
+
+LaTeX Warning: Reference `eq:helixparam' on page 8 undefined on input line 146.
+
+
+
+LaTeX Warning: Reference `tab:stratCuts' on page 8 undefined on input line 159.
+
+
+
+LaTeX Warning: Reference `tab:stratCuts' on page 8 undefined on input line 171.
+
+
+
+LaTeX Warning: Reference `tab:stratCuts' on page 8 undefined on input line 176.
+
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 8 undefined on input line 186.
+
+[8]
+
+LaTeX Warning: Reference `fig:helix' on page 9 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 9 undefined on input line 210.
+
+
+LaTeX Warning: Reference `fig:helix' on page 9 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 9 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Grefe:2014pba' on page 9 undefined on input line 222.
+
+[9 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/helixDrawing3.p
+df>]) (C:\Users\Sagar\Documents\Documents\argonne\detOptimization2\results.tex
+[10]
+
+LaTeX Warning: Reference `fig:muonefftheta' on page 11 undefined on input line 
+14.
+
+
+LaTeX Warning: Reference `fig:muonefftheta1gev' on page 11 undefined on input l
+ine 18.
+
+<muonEfficiencyThetaComparison1GeV.png, id=236, 569.12625pt x 482.0409pt>
+File: muonEfficiencyThetaComparison1GeV.png Graphic file (type png)
+
+<use muonEfficiencyThetaComparison1GeV.png>
+Package pdftex.def Info: muonEfficiencyThetaComparison1GeV.png used on input li
+ne 24.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+<muonEfficiencyThetaComparison10GeV.png, id=237, 569.12625pt x 482.0409pt>
+File: muonEfficiencyThetaComparison10GeV.png Graphic file (type png)
+
+<use muonEfficiencyThetaComparison10GeV.png>
+Package pdftex.def Info: muonEfficiencyThetaComparison10GeV.png used on input l
+ine 29.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 29--30
+ [][] 
+ []
+
+<muonEfficiencyThetaComparison100GeV.png, id=238, 569.12625pt x 482.0409pt>
+File: muonEfficiencyThetaComparison100GeV.png Graphic file (type png)
+
+<use muonEfficiencyThetaComparison100GeV.png>
+Package pdftex.def Info: muonEfficiencyThetaComparison100GeV.png used on input 
+line 34.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:muoneffpt' on page 11 undefined on input line 42.
+
+
+
+LaTeX Warning: Reference `fig:muonefftheta' on page 11 undefined on input line 
+44.
+
+
+LaTeX Warning: Reference `fig:muoneffpt15theta' on page 11 undefined on input l
+ine 46.
+
+
+LaTeX Warning: Reference `fig:muoneffpt30theta' on page 11 undefined on input l
+ine 47.
+
+
+LaTeX Warning: Reference `fig:muonefftheta1gev' on page 11 undefined on input l
+ine 47.
+
+
+LaTeX Warning: Reference `fig:muoneffpt90theta' on page 11 undefined on input l
+ine 48.
+
+
+LaTeX Warning: Reference `fig:muonefftheta' on page 11 undefined on input line 
+49.
+
+<muonEfficiencyPtComparisonTheta15.png, id=239, 569.12625pt x 482.0409pt>
+File: muonEfficiencyPtComparisonTheta15.png Graphic file (type png)
+
+<use muonEfficiencyPtComparisonTheta15.png>
+Package pdftex.def Info: muonEfficiencyPtComparisonTheta15.png used on input li
+ne 54.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+<muonEfficiencyPtComparisonTheta30.png, id=240, 569.12625pt x 482.0409pt>
+File: muonEfficiencyPtComparisonTheta30.png Graphic file (type png)
+
+<use muonEfficiencyPtComparisonTheta30.png>
+Package pdftex.def Info: muonEfficiencyPtComparisonTheta30.png used on input li
+ne 59.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+<muonEfficiencyPtComparisonTheta90.png, id=241, 569.12625pt x 482.0409pt>
+File: muonEfficiencyPtComparisonTheta90.png Graphic file (type png)
+
+<use muonEfficiencyPtComparisonTheta90.png>
+Package pdftex.def Info: muonEfficiencyPtComparisonTheta90.png used on input li
+ne 64.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+[11 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/muonEfficiency
+ThetaComparison1GeV.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimiz
+ation2/muonEfficiencyThetaComparison10GeV.png> <C:/Users/Sagar/Documents/Docume
+nts/argonne/detOptimization2/muonEfficiencyThetaComparison100GeV.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@overline' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 72.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetalowpt' on page 12 undefined on inp
+ut line 75.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetamedpt' on page 12 undefined on inp
+ut line 75.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetahighpt' on page 12 undefined on in
+put line 76.
+
+
+<eettbarEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png, id=248, 569.12625
+pt x 482.0409pt>
+File: eettbarEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png Graphic file 
+(type png)
+
+<use eettbarEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyThetaLowPt_sidloi3_det_vtxbar_3double
+t.png used on input line 85.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 85--86
+ [][] 
+ []
+
+
+<eettbarEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doublet.png, id=249, 569.12625
+pt x 482.0409pt>
+File: eettbarEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doublet.png Graphic file 
+(type png)
+
+<use eettbarEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyThetaMedPt_sidloi3_det_vtxbar_3double
+t.png used on input line 90.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+
+<eettbarEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png, id=250, 569.12625
+pt x 482.0409pt>
+File: eettbarEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png Graphic file 
+(type png)
+
+<use eettbarEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyTheta30GeV_sidloi3_det_vtxbar_3double
+t.png used on input line 95.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 95--96
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:eettbareffpt' on page 12 undefined on input line 
+103.
+
+
+LaTeX Warning: Reference `fig:eettbareffpt' on page 12 undefined on input line 
+105.
+
+
+LaTeX Warning: Reference `fig:eettbareffpthightheta' on page 12 undefined on in
+put line 106.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetahighpt' on page 12 undefined on in
+put line 108.
+
+
+LaTeX Warning: Reference `fig:eettbareffpt' on page 12 undefined on input line 
+110.
+
+
+<eettbarEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doublet.png, id=251, 569.12625
+pt x 482.0409pt>
+File: eettbarEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doublet.png Graphic file 
+(type png)
+
+<use eettbarEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyPtLowTheta_sidloi3_det_vtxbar_3double
+t.png used on input line 115.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+
+<eettbarEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png, id=252, 569.12625
+pt x 482.0409pt>
+File: eettbarEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png Graphic file 
+(type png)
+
+<use eettbarEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyPtMedTheta_sidloi3_det_vtxbar_3double
+t.png used on input line 120.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 120--121
+ [][] 
+ []
+
+
+<eettbarEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doublet.png, id=253, 569.1262
+5pt x 482.0409pt>
+File: eettbarEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doublet.png Graphic file
+ (type png)
+
+<use eettbarEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doubl
+et.png used on input line 125.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 125--126
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:eettbareffhitdist' on page 12 undefined on input 
+line 133.
+
+
+LaTeX Warning: Reference `fig:eettbareffhit' on page 12 undefined on input line
+ 134.
+
+
+LaTeX Warning: Reference `fig:eettbareffdistance' on page 12 undefined on input
+ line 135.
+
+
+LaTeX Warning: Reference `fig:eettbareffhit' on page 12 undefined on input line
+ 136.
+
+
+LaTeX Warning: Reference `fig:eettbareffdistance' on page 12 undefined on input
+ line 142.
+
+
+<eettbarEfficiencyHits_sidloi3_det_vtxbar_3doublet.png, id=254, 569.12625pt x 4
+82.0409pt>
+File: eettbarEfficiencyHits_sidloi3_det_vtxbar_3doublet.png Graphic file (type 
+png)
+ <use eettbarEfficiencyHits_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyHits_sidloi3_det_vtxbar_3doublet.png 
+used on input line 147.
+(pdftex.def)             Requested size: 216.81pt x 183.63347pt.
+
+<eettbarEfficiencyDistance_sidloi3_det_vtxbar_3doublet.png, id=255, 569.12625pt
+ x 482.0409pt>
+File: eettbarEfficiencyDistance_sidloi3_det_vtxbar_3doublet.png Graphic file (t
+ype png)
+ <use eettbarEfficiencyDistance_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: eettbarEfficiencyDistance_sidloi3_det_vtxbar_3doublet.
+png used on input line 152.
+(pdftex.def)             Requested size: 216.81pt x 183.63347pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 145--156
+[]$[]$ $[]$ 
+ []
+
+[12 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/muonEfficiency
+PtComparisonTheta15.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimiz
+ation2/muonEfficiencyPtComparisonTheta30.png> <C:/Users/Sagar/Documents/Documen
+ts/argonne/detOptimization2/muonEfficiencyPtComparisonTheta90.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@overline' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@overline' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 160.
+
+
+LaTeX Warning: Reference `fig:ttbbeffthetalowpt' on page 13 undefined on input 
+line 165.
+
+
+LaTeX Warning: Reference `fig:ttbbeffthetahighpt' on page 13 undefined on input
+ line 167.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetalowpt' on page 13 undefined on inp
+ut line 168.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetahighpt' on page 13 undefined on in
+put line 169.
+
+
+LaTeX Warning: Reference `fig:ttbbeffthetamedpt' on page 13 undefined on input 
+line 171.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetamedpt' on page 13 undefined on inp
+ut line 173.
+
+
+LaTeX Warning: Reference `fig:ttbbeffthetamedpt' on page 13 undefined on input 
+line 177.
+
+
+LaTeX Warning: Reference `fig:eettbareffthetamedpt' on page 13 undefined on inp
+ut line 179.
+
+
+<ttbb6qallEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png, id=261, 569.126
+25pt x 482.0409pt>
+File: ttbb6qallEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png Graphic fil
+e (type png)
+
+<use ttbb6qallEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyThetaLowPt_sidloi3_det_vtxbar_3doub
+let.png used on input line 184.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 184--185
+ [][] 
+ []
+
+
+<ttbb6qallEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doublet.png, id=262, 569.126
+25pt x 482.0409pt>
+File: ttbb6qallEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doublet.png Graphic fil
+e (type png)
+
+<use ttbb6qallEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyThetaMedPt_sidloi3_det_vtxbar_3doub
+let.png used on input line 189.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+
+<ttbb6qallEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png, id=263, 569.126
+25pt x 482.0409pt>
+File: ttbb6qallEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png Graphic fil
+e (type png)
+
+<use ttbb6qallEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doub
+let.png used on input line 194.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 194--195
+ [][] 
+ []
+
+[13 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/eettbarEfficie
+ncyThetaLowPt_sidloi3_det_vtxbar_3doublet.png> <C:/Users/Sagar/Documents/Docume
+nts/argonne/detOptimization2/eettbarEfficiencyThetaMedPt_sidloi3_det_vtxbar_3do
+ublet.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/eettbar
+EfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png> <C:/Users/Sagar/Documents
+/Documents/argonne/detOptimization2/eettbarEfficiencyPtLowTheta_sidloi3_det_vtx
+bar_3doublet.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/
+eettbarEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png> <C:/Users/Sagar/Do
+cuments/Documents/argonne/detOptimization2/eettbarEfficiencyPtHighTheta_sidloi3
+_det_vtxbar_3doublet.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:ttbbeffpt' on page 14 undefined on input line 202
+.
+
+
+LaTeX Warning: Reference `fig:ttbbefftheta' on page 14 undefined on input line 
+203.
+
+
+LaTeX Warning: Reference `fig:ttbbeffpthightheta' on page 14 undefined on input
+ line 204.
+
+
+LaTeX Warning: Reference `fig:ttbbeffpthightheta' on page 14 undefined on input
+ line 207.
+
+
+LaTeX Warning: Reference `fig:ttbbeffptmedtheta' on page 14 undefined on input 
+line 207.
+
+
+LaTeX Warning: Reference `fig:ttbbeffptmedtheta' on page 14 undefined on input 
+line 212.
+
+
+LaTeX Warning: Reference `fig:eettbareffptlowtheta' on page 14 undefined on inp
+ut line 213.
+
+
+LaTeX Warning: Reference `fig:ttbbeffptlowtheta' on page 14 undefined on input 
+line 216.
+
+
+LaTeX Warning: Reference `fig:ttbbeffptlowtheta' on page 14 undefined on input 
+line 217.
+
+
+LaTeX Warning: Reference `fig:ttbbefftheta' on page 14 undefined on input line 
+219.
+
+
+<ttbb6qallEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doublet.png, id=271, 569.126
+25pt x 482.0409pt>
+File: ttbb6qallEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doublet.png Graphic fil
+e (type png)
+
+<use ttbb6qallEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyPtLowTheta_sidloi3_det_vtxbar_3doub
+let.png used on input line 224.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+
+<ttbb6qallEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png, id=272, 569.126
+25pt x 482.0409pt>
+File: ttbb6qallEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png Graphic fil
+e (type png)
+
+<use ttbb6qallEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doub
+let.png used on input line 229.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 229--230
+ [][] 
+ []
+
+
+<ttbb6qallEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doublet.png, id=273, 569.12
+625pt x 482.0409pt>
+File: ttbb6qallEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doublet.png Graphic fi
+le (type png)
+
+<use ttbb6qallEfficiencyPtHighTheta_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyPtHighTheta_sidloi3_det_vtxbar_3dou
+blet.png used on input line 234.
+(pdftex.def)             Requested size: 144.54pt x 122.4223pt.
+
+Overfull \hbox (1.44461pt too wide) in paragraph at lines 234--235
+ [][] 
+ []
+
+[14 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/eettbarEfficie
+ncyHits_sidloi3_det_vtxbar_3doublet.png> <C:/Users/Sagar/Documents/Documents/ar
+gonne/detOptimization2/eettbarEfficiencyDistance_sidloi3_det_vtxbar_3doublet.pn
+g>]
+
+LaTeX Warning: Reference `fig:ttbbeffhit' on page 15 undefined on input line 24
+3.
+
+
+LaTeX Warning: Reference `fig:eettbareffhit' on page 15 undefined on input line
+ 249.
+
+
+LaTeX Warning: Reference `fig:ttbbeffdistance' on page 15 undefined on input li
+ne 250.
+
+
+LaTeX Warning: Reference `fig:eettbareffdistance' on page 15 undefined on input
+ line 253.
+
+
+<ttbb6qallEfficiencyHits_sidloi3_det_vtxbar_3doublet.png, id=279, 569.12625pt x
+ 482.0409pt>
+File: ttbb6qallEfficiencyHits_sidloi3_det_vtxbar_3doublet.png Graphic file (typ
+e png)
+ <use ttbb6qallEfficiencyHits_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyHits_sidloi3_det_vtxbar_3doublet.pn
+g used on input line 260.
+(pdftex.def)             Requested size: 216.81pt x 183.63347pt.
+
+<ttbb6qallEfficiencyDistance_sidloi3_det_vtxbar_3doublet.png, id=280, 569.12625
+pt x 482.0409pt>
+File: ttbb6qallEfficiencyDistance_sidloi3_det_vtxbar_3doublet.png Graphic file 
+(type png)
+
+<use ttbb6qallEfficiencyDistance_sidloi3_det_vtxbar_3doublet.png>
+Package pdftex.def Info: ttbb6qallEfficiencyDistance_sidloi3_det_vtxbar_3double
+t.png used on input line 265.
+(pdftex.def)             Requested size: 216.81pt x 183.63347pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 258--270
+[]$[]$ $[]$ 
+ []
+
+[15 <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/ttbb6qallEffic
+iencyThetaLowPt_sidloi3_det_vtxbar_3doublet.png> <C:/Users/Sagar/Documents/Docu
+ments/argonne/detOptimization2/ttbb6qallEfficiencyThetaMedPt_sidloi3_det_vtxbar
+_3doublet.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimization2/ttb
+b6qallEfficiencyTheta30GeV_sidloi3_det_vtxbar_3doublet.png> <C:/Users/Sagar/Doc
+uments/Documents/argonne/detOptimization2/ttbb6qallEfficiencyPtLowTheta_sidloi3
+_det_vtxbar_3doublet.png> <C:/Users/Sagar/Documents/Documents/argonne/detOptimi
+zation2/ttbb6qallEfficiencyPtMedTheta_sidloi3_det_vtxbar_3doublet.png> <C:/User
+s/Sagar/Documents/Documents/argonne/detOptimization2/ttbb6qallEfficiencyPtHighT
+heta_sidloi3_det_vtxbar_3doublet.png>]
+
+LaTeX Warning: Reference `fig:eettbarfakerate' on page 16 undefined on input li
+ne 281.
+
+
+LaTeX Warning: Reference `fig:ttbbfakerate' on page 16 undefined on input line 
+281.
+
+
+LaTeX Warning: Reference `fig:eettbarfakeratetheta' on page 16 undefined on inp
+ut line 284.
+
+Runaway argument?
+{fig:ttbbfakeratetheta) and for 0.1 GeV $< p_{T} < $ 200 GeV (figure~\ETC.
+! Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.288 
+      
+? 
+! Emergency stop.
+<to be read again> 
+                   \par 
+l.288 
+      
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 8090 strings out of 494045
+ 123857 string characters out of 3148388
+ 208799 words of memory out of 3000000
+ 11181 multiletter control sequences out of 15000+200000
+ 15605 words of font info for 60 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 42i,11n,43p,587b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

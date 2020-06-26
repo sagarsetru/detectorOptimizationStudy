@@ -1,0 +1,19 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: detOptimization4.aux
+The style file: utphys_mod.bst
+Database file #1: C:/Users/Sagar/Documents/mybibfile.bib
+You can't pop an empty literal stack for entry 2011arXiv1104.4547W
+while executing---line 1224 of file utphys_mod.bst
+Warning--there's a number but no series in graf2007simulator
+`howpublished' is a missing field, not a string, for entry lcsimurl
+while executing---line 1224 of file utphys_mod.bst
+Warning--can't use both volume and number fields in graf2011org
+Warning--can't use both volume and number fields in tsaregorodtsev2008dirac
+You can't pop an empty literal stack for entry 2003physics...6114G
+while executing---line 1224 of file utphys_mod.bst
+`howpublished' is a missing field, not a string, for entry stdhep:url
+while executing---line 1224 of file utphys_mod.bst
+`howpublished' is a missing field, not a string, for entry geant4physlist:url
+while executing---line 1224 of file utphys_mod.bst
+You can't pop an empty literal stack for entry 2008arXiv0808.0130P
+while executing---line 1224 of file utphys_mod.bst
+(There were 6 error messages)
